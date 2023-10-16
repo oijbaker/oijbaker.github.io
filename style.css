@@ -1,10 +1,41 @@
-#title {
-    padding: 10px;
-    background-image: linear-gradient(to bottom right, rgba(195, 233, 235, 1), rgba(195, 233, 235, 0));
+body {
+    background: #eaf9f7;
+    font-family: 'open sans', helvetica, sans-serif;
+}
+   
+canvas {
+    width: 100%;
+    z-index: -1;
+    position: absolute
 }
 
+h1 {
+position: absolute;
+top: 20%;
+left: 25%;
+width: 50%;
+font-size: 55px;
+text-transform: uppercase;
+letter-spacing: 3px;
+font-weight: 800;
+text-align: center;
+    color:#222;
+}
 
-body {
-    padding: 0;
-    margin: 0;
+.description {
+    position: absolute;
+    left: 25%;
+    width: 60%;
+    top: 45%;
+    color: #000;
+    font-size: larger;
+}
+
+.publications {
+    position: absolute;
+    left: 25%;
+    width: 60%;
+    top: 70%;
+    color: #000;
+    z-index: -1;
 }
