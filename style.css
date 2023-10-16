@@ -19,6 +19,7 @@ body {
     text-align: center;
     padding-top: 2%;
     padding-bottom: 2%;
+    font-size: 125%;
 }
 
 .container-item:hover {
@@ -90,4 +91,5 @@ canvas {
     margin: 10px;
     padding: 10px;
     width: 95%;
+    font-size: 150%;
 }
