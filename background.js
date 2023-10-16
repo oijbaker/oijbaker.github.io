@@ -22,7 +22,7 @@ var icBgAnimation = function() {
 
 		canvas = document.getElementById("icbg-animation");
 		canvas.width = width*5;
-		canvas.height = height*5;
+		canvas.height = height*10;
 		ctx = canvas.getContext("2d");
 
 		ctx.canvas.width  = window.innerWidth;
@@ -31,7 +31,7 @@ var icBgAnimation = function() {
 		// create lines and points
 		points = [];
 		for (var x = -width; x < width; x = x + width / 18) {
-			for (var y = -height; y < height; y = y + height / 15) {
+			for (var y = -2*height; y < 2*height; y = y + 2*height / 15) {
 				var px = x + Math.random() * width / 4;
 				var py = y + Math.random() * height / 2;
 				var p = {
