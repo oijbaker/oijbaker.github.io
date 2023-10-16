@@ -21,14 +21,17 @@ var icBgAnimation = function() {
 		};
 
 		canvas = document.getElementById("icbg-animation");
-		canvas.width = width;
-		canvas.height = height;
+		canvas.width = width*5;
+		canvas.height = height*5;
 		ctx = canvas.getContext("2d");
+
+		ctx.canvas.width  = window.innerWidth;
+  		ctx.canvas.height = window.innerHeight;
 
 		// create lines and points
 		points = [];
-		for (var x = 0; x < width; x = x + width / 18) {
-			for (var y = 0; y < height; y = y + height / 15) {
+		for (var x = -width; x < width; x = x + width / 18) {
+			for (var y = -height; y < height; y = y + height / 15) {
 				var px = x + Math.random() * width / 4;
 				var py = y + Math.random() * height / 2;
 				var p = {
@@ -151,8 +154,8 @@ var icBgAnimation = function() {
 	// speed of movement adjusted below
 	function shiftPoint(p) {
 		TweenLite.to(p, 40 + 15 * Math.random(), {
-			x: p.originX - 50 + Math.random() * 2000,
-			y: p.originY - 50 + Math.random() * 1500,
+			x: p.originX - 50 + Math.random() * 20,
+			y: p.originY - 50 + Math.random() * 15,
 			ease: Circ.easeInOut,
 			onComplete: function() {
 				shiftPoint(p);
