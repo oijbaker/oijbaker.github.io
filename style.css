@@ -136,3 +136,8 @@ canvas {
     padding-top: 5%;
     padding-left: 5%;
 }
+
+.pub_list {
+    font-size: 120%; 
+    padding-left: 5%;
+}
