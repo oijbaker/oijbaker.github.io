@@ -73,6 +73,10 @@ canvas {
     color: #222;
 }
 
+.nameblock_subpage:hover {
+    background: rgba(75, 95, 93, 1);
+}
+
 .description_subpage {
     position: relative;
     background-color: rgba(75, 95, 93, 0.5);
