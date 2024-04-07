@@ -1,0 +1,63 @@
+/* Timberwolf E2DADB
+Slate Grey 70798C
+Platinum DAE2DF
+Chestnut A24936
+Penn Blue 091540
+*/
+
+/* Body styling */
+body {
+  background-color: #e3e7f3;
+  color: #091540;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styling: header_image to take up 25% and header_text to take up the other 75%*/
+
+.body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+
+}
+
+.header {
+  width: 25%
+}
+
+.header_image {
+  width: 98%;
+  float: left;
+  justify-content: center;
+}
+
+.header_image img {
+  width: 90%;
+  border-radius: 50%;
+  margin: 8%;
+  max-width: 200px;
+}
+
+.header_text {
+  width: 75%;
+  margin: auto;
+}
+
+.header_text h1 {
+  font-size: 200%;
+  margin: 0;
+  padding: 0;
+}
+
+.header_text p {
+  font-size: 100%;
+  max-width: 80%;
+}
+
+
+
