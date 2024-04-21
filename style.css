@@ -27,12 +27,10 @@ body {
 
 .header {
   width: 25%;
-}
-
-.header_image {
-  width: 98%;
-  float: left;
-  justify-content: left;
+  /* background-color: #ffffff; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .header_image img {
@@ -47,6 +45,13 @@ body {
   margin: auto;
 }
 
+.header_image {
+  width: 98%;
+  padding-left: 5%;
+}
+
+
+
 .header_text h1 {
   font-size: 150%;
   margin: 0;
@@ -56,7 +61,7 @@ body {
 
 .header_text p {
   font-size: 100%;
-  max-width: 80%;
+  max-width: 60%;
 }
 
 .main {
@@ -71,6 +76,11 @@ body {
 .main a {
   color: #091540;
   text-decoration: bold;
+}
+
+.main h2 {
+  padding-top: 20%;
+  margin-top: 10%;
 }
 
 .main a:hover {
