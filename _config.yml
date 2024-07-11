@@ -1,9 +1,9 @@
 # site settings
-title: Forty
+title: Ollie Baker
 subtitle: by HTML5 UP
 email: oijbaker@outlook.com
 description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
-baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
+baseurl: /
 url: https://oijbaker.github.io/
 author: Ollie Baker
 street_address: 
