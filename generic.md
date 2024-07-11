@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Generic
-description: Lorem ipsum dolor est
-image: assets/images/pic11.jpg
+title: Research
+description: A brief introduction to Soft Random Geometric Graph Entropy
+image: assets/images/dense.jpg
 nav-menu: true
 ---
 
