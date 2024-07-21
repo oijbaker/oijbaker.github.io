@@ -2,7 +2,7 @@
 layout: post
 title: Research
 description: A brief introduction to Soft Random Geometric Graph Entropy
-image: assets/images/dense.png
+image: assets/images/fig1.png
 nav-menu: true
 ---
 
