@@ -22,6 +22,6 @@ Currently, we are interested in studying the properties of the maximum entropy g
 <h2>Publications</h2>
 <ol>
   <li>
-    Baker, Oliver, Maria Montefinese, Nichol Castro, and Massimo Stella. "Multiplex lexical networks and artificial intelligence unravel cognitive patterns of picture naming in people with anomic aphasia." Cognitive Systems Research 79 (2023): 43-54.
+    <a href="https://www.sciencedirect.com/science/article/pii/S138904172300013X?casa_token=iOHWU7lX9Y8AAAAA:JlMDP14o8lBaOTESSV_NWrUWUvJhZEF2UWfO9Wgial00snosg_V7xidGbm_Gb3Cv2Np_l6EStA">Baker, Oliver, Maria Montefinese, Nichol Castro, and Massimo Stella. "Multiplex lexical networks and artificial intelligence unravel cognitive patterns of picture naming in people with anomic aphasia." Cognitive Systems Research 79 (2023): 43-54.</a>
   </li>
 </ol>
